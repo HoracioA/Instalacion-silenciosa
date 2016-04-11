@@ -64,6 +64,7 @@ int main ()
 	menu(2);
 
 	copiar_carpetas((char*)DIR_FS_AUXILIAR, (char*)DIR_PC_AUXILIAR);				//ver si tiene problemas
+	
 	instalacion();
 	
 	system("pause");

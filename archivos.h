@@ -128,6 +128,7 @@ int copiar_carpetas(char *origen, char *destino)
 	
 	strcat(string, destino );
 	strcat(string, "\\\" /s/c/y >null " );
+	system(string);
 	#ifdef DEPURAR
 		printf("\nA copiar: %s", string);
 		system("pause");
@@ -142,7 +143,7 @@ int copiar_carpetas(char *origen, char *destino)
 	strcat(string, "\"");
 	strcat(string, " ");
 	strcat(string, "\"");
-	strcat(string, "C:\\Temp\\instalacion silenciosa\\nod32\\config.xml");
+	strcat(string, "C:\\Temp\\instalacion silenciosa\\nod32");
 	strcat(string, "\\\" /s/c/y/f >null " );
 	
 	system(string);

@@ -387,7 +387,7 @@ void copiarprogramas(int id)
 		strcat(string,"\\");
 		strcat(string,"\"");							//fin direccion de destino
 		
-		strcat(string,  " /s/c/y >null ");
+		strcat(string,  " /s/c/y >nul ");
 	
 				
 		#ifdef DEPURAR
